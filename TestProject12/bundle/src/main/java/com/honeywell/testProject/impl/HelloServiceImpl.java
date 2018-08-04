@@ -22,6 +22,8 @@ public class HelloServiceImpl implements HelloService {
 
     public String getRepositoryName() {
         return repository.getDescriptor(Repository.REP_NAME_DESC);
+    
+   // System.out.println{"Hi"};
     }
 
 }
